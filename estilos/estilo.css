@@ -1,0 +1,107 @@
+body{
+    background-color:lavender ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    font-size: larger;
+    color: rgb(68, 68, 204);
+    font-weight: bold;
+}
+
+h3{
+    font-size: medium;
+    color: rgb(68, 68, 204);
+    font-weight: bold;  
+}
+
+p{
+    font-size: small;
+    color: rgb(68, 68, 204);
+    font-weight: bold;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu{
+    list-style-position: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #3333;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: #1111;
+}
+
+li a:active{
+    background-color: #cfcaca77;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: thick double black;
+    margin: auto;
+}
+
+img{
+    border-radius: 25px;
+
+}
+div {
+    text-align: center;
+}
+.reset{
+    margin: auto;
+    display: block;
+}
+.shadowbutton:hover {
+    display: inline-block;
+    box-shadow: 0 0px 16px 0 rgba(0,0,0,0.24);
+}
+
+.shadowbutton:active {
+    box-shadow: 0 0px 16px 0 rgba(0,0,0,0.24);
+    background-color:#878b8fec
+}
+
+input[name=Nome],input[name=email]  {
+    width: 17%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .contato{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  textarea {
+    vertical-align: top;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
